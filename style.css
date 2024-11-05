@@ -1,0 +1,63 @@
+body{
+  background-image: url(bg1.png) ;
+  background-size: cover; /* Ensure the background covers the entire page */
+  background-position: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 10vh;
+}
+
+
+.formm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#message {
+  text-align: center; 
+  color: rgb(255, 230, 0);
+  text-shadow: 3px 3px 5px black, 3px 3px 50px black,3px 3px 5px black ;
+  font-size: 70px;
+  font-family:  "Press Start 2P";
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn input {
+  font-size: 24px; 
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 2px solid #000; 
+  background-color: #4CAF50; 
+  color: white; 
+  cursor: pointer; 
+  text-shadow: 3px 3px 5px black, 3px 3px 50px black,3px 3px 5px black ;
+  font-family:  "Press Start 2P";
+  
+}
+.btn input:hover {
+  background-color: #45a049; 
+}
+
+.btn input:active {
+  background-color: #f6ff00; 
+}
+
+#scores{
+  color: gold;
+  text-align: center; 
+  text-shadow: 3px 3px 5px black, 3px 3px 50px black,3px 3px 5px black ;
+  font-size: 20px;
+  font-family:  "Press Start 2P";
+}
+
+#betAmount{
+  text-shadow: 3px 3px 5px black, 3px 3px 50px black,3px 3px 5px black ;
+  font-size: 20px;
+  font-family:  "Press Start 2P";
+  text-align: center;
+}

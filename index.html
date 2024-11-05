@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="index.js"></script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<meta charset=utf-8 />
+<title></title>
+</head>
+<body>
+  
+  <div>
+    <h1 id='message'> <center>SLOT MACHINE GAME</center> </h1>
+  </div>
+<form name="imageForm" class="formm">
+  <table border=10>
+  <tr>
+    <td>
+      <img src="Porsche.png" name="img1" width="255" height="255" />
+    </td>
+	<td>
+      <img src="lambo.jpg" name="img2"  width="255" height="255"/>
+    </td>
+	<td>
+      <img src="ferarri.png" name="img3"  width="255" height="255"/>
+    </td>
+  </tr>
+  </table>
+</form>
+
+<div id="scores" class="animated bounceIn">
+  <h1><center>Credits: <span id="textCredits">1000</span></center></h1>
+  <input type="number" id="betAmount" placeholder="Enter your bet amount"/>  
+</div>
+
+
+<div class="btn" >
+  <input  id="startbtn" onclick="displayImage();" type="button" value="Start">
+</div>
+
+</body>
+</html>
